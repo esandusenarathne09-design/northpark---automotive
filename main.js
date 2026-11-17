@@ -119,8 +119,8 @@
 
   /* ---------- Open-now badge ----------
      Opening hours (update here if hours change):
-     Mon–Fri 8:00–17:00 · Sat 8:00–12:00 · Sun closed */
-  var HOURS = { 0: null, 1: [8, 17], 2: [8, 17], 3: [8, 17], 4: [8, 17], 5: [8, 17], 6: [8, 12] };
+     Mon–Fri 9:00–18:00 · Sat 9:00–16:00 · Sun closed */
+  var HOURS = { 0: null, 1: [9, 18], 2: [9, 18], 3: [9, 18], 4: [9, 18], 5: [9, 18], 6: [9, 16] };
   var badge = document.getElementById('openBadge');
   function fmtHour(h) {
     if (h === 12) return '12pm';
